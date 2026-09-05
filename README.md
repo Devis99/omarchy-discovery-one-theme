@@ -52,3 +52,11 @@ theme.
 
 Discovery One is intentionally quiet: red is reserved for focus and warning,
 while the wallpapers and window layout provide most of the depth.
+
+## Image credits
+
+The wallpaper frames are from *2001: A Space Odyssey* (1968), sourced from
+[Movie-Screencaps](https://www.movie-screencaps.com/2001-a-space-odyssey-1968-4k/)
+and hosted by [Screencaps](https://imgs.screencaps.us/196/4k-8-spaceodyssee/full/).
+Individual frame references are listed in
+[`backgrounds/SOURCES.md`](backgrounds/SOURCES.md).

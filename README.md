@@ -26,16 +26,16 @@ theme.
 
 ![Discovery One signal palette](assets/discovery-one-palette.png)
 
-| Role | Colour |
-|---|---|
-| Background | `#111d1f` graphite teal-black |
-| Foreground | `#d6d1bf` warm ivory |
-| Signal red | `#e85854` |
-| Telemetry amber | `#daa843` |
-| Phosphor green | `#2d9570` |
-| Instrument teal | `#39abab` |
-| Display blue | `#2d7db9` |
-| Diagram magenta | `#c274a9` |
+| Role | Hex | Description |
+|---|---|---|
+| Background | `#111d1f` | Graphite teal-black |
+| Foreground | `#d6d1bf` | Warm ivory |
+| Signal | `#e85854` | HAL signal red |
+| Telemetry | `#daa843` | Instrument amber |
+| Phosphor | `#2d9570` | Phosphor green |
+| Instrument | `#39abab` | Cool instrument teal |
+| Display | `#2d7db9` | CRT display blue |
+| Diagram | `#c274a9` | Diagram magenta |
 
 ## Included
 

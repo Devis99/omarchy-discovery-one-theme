@@ -3,7 +3,7 @@
 All wallpapers live together in this directory:
 `~/.config/omarchy/themes/discovery-one/backgrounds/`.
 
-The collection contains 16 center-cropped `3840×1760` frames from *2001: A
+The collection contains 24 center-cropped `3840×1760` frames from *2001: A
 Space Odyssey*, selected for its spacecraft exteriors, orbital architecture,
 HAL interfaces, and practical instrument design.
 
@@ -22,7 +22,13 @@ HAL interfaces, and practical instrument design.
 | `movie-console-detail.jpg` | 1101 |
 | `movie-station-ring-close.jpg` | 1181 |
 | `movie-flight-deck-secondary.jpg` | 1221 |
+| `movie-orbital-lounge.jpg` | 1440 |
+| `movie-shuttle-corridor.jpg` | 2390 |
+| `movie-moonbus-cabin.jpg` | 2565 |
+| `movie-lunar-shuttle-cockpit.jpg` | 2815 |
+| `movie-monolith-excavation.jpg` | 4240 |
 | `movie-discovery-one-profile.jpg` | 4571 |
+| `movie-discovery-centrifuge.jpg` | 4655 |
 | `movie-hal-console-wide.jpg` | 4961 |
 | `movie-hal-interface-bank.jpg` | 5201 |
 | `movie-chess-console.jpg` | 5761 |
@@ -30,6 +36,8 @@ HAL interfaces, and practical instrument design.
 | `movie-eva-pod-cockpit.jpg` | 6701 |
 | `movie-discovery-eva.jpg` | 6961 |
 | `movie-ae35-display.jpg` | 7131 |
+| `movie-hal-eye.jpg` | 7250 |
+| `movie-hal-memory-room.jpg` | 10860 |
 
 Individual URLs follow this pattern:
 

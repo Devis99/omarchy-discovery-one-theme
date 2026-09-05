@@ -87,6 +87,7 @@ body {
     --interactive-active: var(--text-1);
     --interactive-muted: var(--text-5);
     --channels-default: var(--text-5);
+    --channels-default-unread: #daa843;
     --channel-icon: var(--text-5);
     --background-primary: var(--bg-4);
     --background-secondary: var(--bg-3);
@@ -123,6 +124,48 @@ body {
     --purple-3: #c274a9;
     --purple-4: color-mix(in srgb, #c274a9, #111d1f 18%);
     --purple-5: color-mix(in srgb, #c274a9, #111d1f 34%);
+}
+
+/* Channel telemetry: amber means unread, cyan marks the live channel. */
+#channels [class*="modeUnread"] [class*="link__"] {
+    background: color-mix(in srgb, #daa843 8%, transparent) !important;
+    box-shadow: inset 2px 0 #daa843;
+}
+
+#channels [class*="modeUnread"] :is([class*="name__"], [class*="icon__"]),
+#channels a[data-list-item-id^="channels___"][class*="modeUnread"] :is([class*="name"], svg) {
+    color: #daa843 !important;
+    fill: #daa843 !important;
+    font-weight: 600 !important;
+}
+
+#channels [class*="modeUnread"] [class*="unread_"] {
+    background: #daa843 !important;
+}
+
+#channels [class*="modeConnected"] [class*="link__"] {
+    box-shadow: inset 2px 0 #65cead;
+}
+
+#channels [class*="modeConnected"] :is([class*="name__"], [class*="icon__"]) {
+    color: #65cead !important;
+}
+
+#channels [class*="modeSelected"] [class*="link__"],
+#channels a[data-list-item-id^="channels___"][aria-selected="true"] {
+    background: linear-gradient(90deg, #143f3d, color-mix(in srgb, #39abab 12%, #0b1719)) !important;
+    box-shadow: inset 3px 0 #39abab, inset 0 0 0 1px color-mix(in srgb, #39abab 28%, transparent) !important;
+}
+
+#channels [class*="modeSelected"] :is([class*="name__"], [class*="icon__"]),
+#channels a[data-list-item-id^="channels___"][aria-selected="true"] :is([class*="name"], svg) {
+    color: #f5f2e7 !important;
+    fill: #39abab !important;
+    font-weight: 700 !important;
+}
+
+#channels [class*="modeSelected"] [class*="unread_"] {
+    opacity: 0;
 }
 
 ::selection {

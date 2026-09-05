@@ -30,6 +30,8 @@ theme.
 
 ## Palette
 
+![Discovery One signal palette](assets/discovery-one-palette.png)
+
 | Role | Colour |
 |---|---|
 | Background | `#111d1f` graphite teal-black |
@@ -42,6 +44,8 @@ theme.
 | Diagram magenta | `#c274a9` |
 
 ## Included
+
+![Discovery One cinematic wallpaper collection](assets/discovery-one-wallpapers-mosaic.png)
 
 - `colors.toml` — Omarchy colour definitions and ANSI terminal palette
 - `icons.theme` — Yaru icon theme

@@ -94,6 +94,13 @@ body {
     --background-secondary-alt: var(--bg-2);
     --background-tertiary: #051214;
 
+    --status-positive: #2d9570;
+    --status-speaking: #65cead;
+    --button-danger-background: #e85854;
+    --button-danger-background-hover: #ff847d;
+    --button-danger-text: #051214;
+    --button-positive-background: #2d9570;
+
     --border-light: var(--hover);
     --border: color-mix(in srgb, #7e9495 24%, transparent);
     --border-hover: #39abab;
@@ -166,6 +173,53 @@ body {
 
 #channels [class*="modeSelected"] [class*="unread_"] {
     opacity: 0;
+}
+
+/* Server telemetry: unread amber, active cyan, direct mentions red. */
+[class*="guilds_"] [class*="pill_"] > span[class*="item_"] {
+    background: #daa843 !important;
+}
+
+[class*="guilds_"] [class*="listItem_"]:has([aria-selected="true"]) [class*="pill_"] > span[class*="item_"] {
+    background: #39abab !important;
+}
+
+[class*="guilds_"] [data-list-item-id^="guildsnav___"][aria-selected="true"] {
+    box-shadow: 0 0 0 2px #39abab !important;
+}
+
+[class*="guilds_"] :is([class*="numberBadge"], [class*="textBadge"]) {
+    color: #051214 !important;
+    background: #e85854 !important;
+}
+
+/* The composer becomes an illuminated input panel only while typing. */
+[class*="channelTextArea"]:focus-within [class*="scrollableContainer"] {
+    box-shadow: inset 0 -2px #39abab, inset 0 0 0 1px color-mix(in srgb, #39abab 30%, transparent) !important;
+}
+
+/* Amber calls for attention; teal keeps reply context visible but quieter. */
+div[class*="mentioned"],
+li[class*="mentioned"] {
+    background: linear-gradient(90deg, color-mix(in srgb, #daa843 16%, #111d1f), #111d1f 72%) !important;
+    border-left: 3px solid #daa843 !important;
+}
+
+:is(div, li)[class*="replying"],
+[id^="chat-messages-"]:has([class*="repliedMessage_"]) {
+    background: linear-gradient(90deg, color-mix(in srgb, #39abab 9%, #111d1f), #111d1f 72%) !important;
+    border-left: 2px solid #2d7db9 !important;
+}
+
+/* Code reads as a separate instrument display, not another chat bubble. */
+[class*="markup_"] pre {
+    background: #051214 !important;
+    border: 1px solid color-mix(in srgb, #39abab 28%, transparent) !important;
+    border-left: 3px solid #2d7db9 !important;
+}
+
+[class*="markup_"] pre code {
+    background: transparent !important;
 }
 
 ::selection {

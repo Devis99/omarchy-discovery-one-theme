@@ -1,0 +1,56 @@
+# Discovery One — a dark, architectural palette inspired by 2001: A Space Odyssey
+mode = "dark"
+
+accent = "#e85854"
+selection = "#143f3d"
+selection_foreground = "#c8e2d2"
+muted = "#6b7c7d"
+
+background = "#111d1f"
+dark_background = "#051214"
+darker_background = "#010709"
+lighter_background = "#1a292c"
+
+foreground = "#d6d1bf"
+dark_foreground = "#7e9495"
+light_foreground = "#e5e1d3"
+bright_foreground = "#f5f2e7"
+
+active_border_color = "#e85854"
+active_tab_background = "#551f1d"
+
+# Signal and instrument colours: vivid enough to read, never neon decoration.
+red = "#e85854"
+yellow = "#daa843"
+orange = "#d3754f"
+green = "#2d9570"
+cyan = "#39abab"
+blue = "#2d7db9"
+magenta = "#c274a9"
+purple = "#c274a9"
+brown = "#d3754f"
+
+bright_red = "#ff847d"
+bright_yellow = "#f5c25f"
+bright_green = "#65cead"
+bright_cyan = "#5ddae0"
+bright_blue = "#87bbfd"
+bright_magenta = "#ea9bc7"
+
+# ANSI palette.
+color0 = "#111d1f"
+color1 = "#e85854"
+color2 = "#2d9570"
+color3 = "#daa843"
+color4 = "#2d7db9"
+color5 = "#c274a9"
+color6 = "#39abab"
+color7 = "#d6d1bf"
+color8 = "#6b7c7d"
+color9 = "#ff847d"
+color10 = "#65cead"
+color11 = "#f5c25f"
+color12 = "#87bbfd"
+color13 = "#ea9bc7"
+color14 = "#5ddae0"
+color15 = "#f5f2e7"

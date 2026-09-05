@@ -27,7 +27,7 @@ HAL interfaces, and practical instrument design.
 | `movie-moonbus-cabin.jpg` | 2565 |
 | `movie-lunar-shuttle-cockpit.jpg` | 2815 |
 | `movie-monolith-excavation.jpg` | 4240 |
-| `movie-discovery-one-profile.jpg` | 4571 |
+| `00-discovery-one-profile.jpg` | 4571 |
 | `movie-discovery-centrifuge.jpg` | 4655 |
 | `movie-hal-console-wide.jpg` | 4961 |
 | `movie-hal-interface-bank.jpg` | 5201 |

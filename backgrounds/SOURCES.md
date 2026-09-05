@@ -3,9 +3,11 @@
 All wallpapers live together in this directory:
 `~/.config/omarchy/themes/discovery-one/backgrounds/`.
 
-The collection contains 16 center-cropped `3840×1760` frames from *2001: A
-Space Odyssey*, selected for its spacecraft exteriors, orbital architecture,
-HAL interfaces, and practical instrument design.
+The collection contains 16 `3840×2160` wallpapers from *2001: A Space
+Odyssey*, selected for its spacecraft exteriors, orbital architecture, HAL
+interfaces, and practical instrument design. Each original `3840×1760` film
+frame is centered between graphite letterbox areas, preserving the complete
+image on a 16:9 display without stretching.
 
 - Source collection: https://www.movie-screencaps.com/2001-a-space-odyssey-1968-4k/
 - Direct image host: https://imgs.screencaps.us/196/4k-8-spaceodyssee/full/

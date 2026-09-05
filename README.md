@@ -44,8 +44,8 @@ theme.
 - `colors.toml` — Omarchy colour definitions and ANSI terminal palette
 - `vencord.theme.css` — compact System24 spacecraft-instrument styling for Vencord/Vesktop
 - `icons.theme` — Yaru icon theme
-- `backgrounds/` — 16 curated 3840×2160 *2001* spacecraft, station, and
-  computer-interface wallpapers; each preserves the full cinematic frame
+- `backgrounds/` — 16 curated 3840×1760 *2001* spacecraft, station, and
+  computer-interface frames
 - `DESIGN.md` — visual direction and role rules
 - `backgrounds/SOURCES.md` — wallpaper frame references
 

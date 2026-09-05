@@ -1,0 +1,131 @@
+/**
+ * @name Discovery One
+ * @description A compact spacecraft-instrument Discord theme for Omarchy.
+ * @author Devis99, refact0r (System24)
+ * @version 1.0.0
+ * @source https://github.com/Devis99/omarchy-discovery-one-theme
+ */
+
+@import url("https://refact0r.github.io/system24/build/system24.css");
+
+body {
+    --font: "JetBrainsMono Nerd Font";
+    --code-font: "JetBrainsMono Nerd Font";
+    font-weight: 400;
+    letter-spacing: -0.02ch;
+
+    --gap: 10px;
+    --divider-thickness: 2px;
+    --border-thickness: 1px;
+    --animations: on;
+    --list-item-transition: 0.15s ease;
+    --border-hover-transition: 0.15s ease;
+
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: titlebar;
+    --top-bar-title-position: off;
+    --subtle-top-bar-title: on;
+    --custom-window-controls: on;
+    --window-control-size: 13px;
+
+    --custom-dms-icon: hide;
+    --background-image: off;
+    --transparency-tweaks: off;
+    --remove-bg-layer: off;
+    --panel-blur: off;
+    --small-user-panel: on;
+
+    --unrounding: on;
+    --custom-spotify-bar: on;
+    --ascii-titles: on;
+    --ascii-loader: system24;
+    --panel-labels: on;
+    --label-color: #daa843;
+    --label-font-weight: 600;
+}
+
+:root {
+    --colors: on;
+
+    --text-0: #051214;
+    --text-1: #f5f2e7;
+    --text-2: #e5e1d3;
+    --text-3: #d6d1bf;
+    --text-4: #7e9495;
+    --text-5: #6b7c7d;
+
+    --bg-1: #233538;
+    --bg-2: #1a292c;
+    --bg-3: #0b1719;
+    --bg-4: #111d1f;
+    --hover: color-mix(in srgb, #7e9495 13%, transparent);
+    --active: #143f3d;
+    --active-2: color-mix(in srgb, #39abab 24%, transparent);
+    --message-hover: color-mix(in srgb, #010709 48%, transparent);
+
+    --accent-1: #5ddae0;
+    --accent-2: #39abab;
+    --accent-3: #39abab;
+    --accent-4: #5ddae0;
+    --accent-5: #2d7db9;
+    --accent-new: #e85854;
+    --mention: linear-gradient(to right, color-mix(in srgb, #daa843 16%, transparent) 40%, transparent);
+    --mention-hover: linear-gradient(to right, color-mix(in srgb, #daa843 22%, transparent) 40%, transparent);
+
+    --online: #2d9570;
+    --dnd: #e85854;
+    --idle: #daa843;
+    --streaming: #c274a9;
+    --offline: #6b7c7d;
+
+    --text-normal: var(--text-3);
+    --text-muted: var(--text-5);
+    --header-primary: var(--text-1);
+    --header-secondary: var(--text-4);
+    --interactive-normal: var(--text-4);
+    --interactive-hover: var(--text-2);
+    --interactive-active: var(--text-1);
+    --interactive-muted: var(--text-5);
+    --channels-default: var(--text-5);
+    --channel-icon: var(--text-5);
+    --background-primary: var(--bg-4);
+    --background-secondary: var(--bg-3);
+    --background-secondary-alt: var(--bg-2);
+    --background-tertiary: #051214;
+
+    --border-light: var(--hover);
+    --border: color-mix(in srgb, #7e9495 24%, transparent);
+    --border-hover: #39abab;
+    --button-border: color-mix(in srgb, #d6d1bf 12%, transparent);
+
+    --red-1: #ff847d;
+    --red-2: #e85854;
+    --red-3: #e85854;
+    --red-4: color-mix(in srgb, #e85854, #111d1f 18%);
+    --red-5: color-mix(in srgb, #e85854, #111d1f 34%);
+    --green-1: #65cead;
+    --green-2: #2d9570;
+    --green-3: #2d9570;
+    --green-4: color-mix(in srgb, #2d9570, #111d1f 18%);
+    --green-5: color-mix(in srgb, #2d9570, #111d1f 34%);
+    --blue-1: #5ddae0;
+    --blue-2: #39abab;
+    --blue-3: #2d7db9;
+    --blue-4: color-mix(in srgb, #2d7db9, #111d1f 18%);
+    --blue-5: color-mix(in srgb, #2d7db9, #111d1f 34%);
+    --yellow-1: #f5c25f;
+    --yellow-2: #daa843;
+    --yellow-3: #daa843;
+    --yellow-4: color-mix(in srgb, #daa843, #111d1f 18%);
+    --yellow-5: color-mix(in srgb, #daa843, #111d1f 34%);
+    --purple-1: #ea9bc7;
+    --purple-2: #c274a9;
+    --purple-3: #c274a9;
+    --purple-4: color-mix(in srgb, #c274a9, #111d1f 18%);
+    --purple-5: color-mix(in srgb, #c274a9, #111d1f 34%);
+}
+
+::selection {
+    color: #c8e2d2;
+    background: #143f3d;
+}

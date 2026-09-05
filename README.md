@@ -48,6 +48,7 @@ theme.
 ![Discovery One cinematic wallpaper collection](assets/discovery-one-wallpapers-mosaic.png)
 
 - `colors.toml` — Omarchy colour definitions and ANSI terminal palette
+- `vencord.theme.css` — compact System24 spacecraft-instrument styling for Vencord/Vesktop
 - `icons.theme` — Yaru icon theme
 - `backgrounds/` — 16 curated 3840×1760 *2001* spacecraft, station, and
   computer-interface frames
@@ -56,6 +57,10 @@ theme.
 
 Discovery One is intentionally quiet: red is reserved for focus and warning,
 while the wallpapers and window layout provide most of the depth.
+
+The Discord stylesheet is applied automatically when the THPM Discord
+integration is enabled. Otherwise, copy `vencord.theme.css` into your Vencord or
+Vesktop themes directory and enable it in Discord's **Settings → Themes**.
 
 ## Image credits
 

@@ -12,12 +12,6 @@ HAL-like signal-red indicator. The terminal palette adds restrained amber,
 phosphor teal, blue, and diagram magenta without turning the desktop into a
 neon or gamer theme.
 
-**Should feel:** precise, spacious, calm, clinical, curious, expensive, and a
-little uncanny.
-
-**Should not feel:** cyberpunk, gamer-RGB, glossy, militaristic, or like a
-generic black-and-red hacker theme.
-
 ## Install
 
 ```bash

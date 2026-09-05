@@ -93,6 +93,9 @@ body {
     --background-secondary: var(--bg-3);
     --background-secondary-alt: var(--bg-2);
     --background-tertiary: #051214;
+    --background-base-low: #010709;
+    --background-base-lower: var(--bg-4);
+    --background-base-lowest: #051214;
 
     --status-positive: #2d9570;
     --status-speaking: #65cead;
@@ -131,6 +134,39 @@ body {
     --purple-3: #c274a9;
     --purple-4: color-mix(in srgb, #c274a9, #111d1f 18%);
     --purple-5: color-mix(in srgb, #c274a9, #111d1f 34%);
+}
+
+/* Compartmentalized spacecraft surfaces with a quiet telemetry grid in chat. */
+[class*="guilds_"],
+[class*="sidebarList_"],
+[class*="panels_"] {
+    background-color: #051214 !important;
+}
+
+[class*="chat_"] > [class*="subtitleContainer_"],
+[class*="messagesWrapper_"] {
+    background-color: #111d1f !important;
+}
+
+[class*="messagesWrapper_"] {
+    background-image:
+        linear-gradient(rgba(57, 171, 171, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(57, 171, 171, 0.035) 1px, transparent 1px) !important;
+    background-size: 32px 32px !important;
+}
+
+[class*="messagesWrapper_"] > [class*="scroller_"] {
+    background: transparent !important;
+}
+
+[class*="membersWrap_"],
+[class*="membersWrap_"] > :is([class*="members_"], [class*="container_"]) {
+    background-color: #0b1719 !important;
+}
+
+[class*="channelTextArea_"],
+[class*="channelTextArea_"] [class*="scrollableContainer_"] {
+    background-color: #1a292c !important;
 }
 
 /* Channel telemetry: amber means unread, cyan marks the live channel. */

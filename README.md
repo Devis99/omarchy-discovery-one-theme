@@ -44,7 +44,7 @@ theme.
 ## Included
 
 - `colors.toml` — Omarchy colour definitions and ANSI terminal palette
-- `icons.theme` — Yaru Grey icon theme
+- `icons.theme` — Yaru icon theme
 - `backgrounds/` — 16 curated 3840×1760 *2001* spacecraft, station, and
   computer-interface frames
 - `DESIGN.md` — visual direction and role rules

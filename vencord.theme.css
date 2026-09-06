@@ -29,6 +29,16 @@ body {
     --window-control-size: 13px;
 
     --custom-dms-icon: hide;
+    --custom-dms-background: color;
+    --dms-background-color: radial-gradient(circle closest-side,
+        #f5f2e7 0 10%,
+        #ff847d 11% 21%,
+        #e85854 22% 36%,
+        #8f3432 37% 53%,
+        #551f1d 54% 70%,
+        #233538 71% 85%,
+        #6b7c7d 86% 94%,
+        #051214 95% 100%);
     --background-image: off;
     --transparency-tweaks: off;
     --remove-bg-layer: off;
@@ -67,7 +77,7 @@ body {
     --accent-2: #39abab;
     --accent-3: #39abab;
     --accent-4: #5ddae0;
-    --accent-5: #2d7db9;
+    --accent-5: #2b8ae6;
     --accent-new: #e85854;
     --mention: linear-gradient(to right, color-mix(in srgb, #daa843 16%, transparent) 40%, transparent);
     --mention-hover: linear-gradient(to right, color-mix(in srgb, #daa843 22%, transparent) 40%, transparent);
@@ -75,7 +85,7 @@ body {
     --online: #2d9570;
     --dnd: #e85854;
     --idle: #daa843;
-    --streaming: #c274a9;
+    --streaming: #b28fea;
     --offline: #6b7c7d;
 
     --text-normal: var(--text-3);
@@ -121,19 +131,19 @@ body {
     --green-5: color-mix(in srgb, #2d9570, #111d1f 34%);
     --blue-1: #5ddae0;
     --blue-2: #39abab;
-    --blue-3: #2d7db9;
-    --blue-4: color-mix(in srgb, #2d7db9, #111d1f 18%);
-    --blue-5: color-mix(in srgb, #2d7db9, #111d1f 34%);
+    --blue-3: #2b8ae6;
+    --blue-4: color-mix(in srgb, #2b8ae6, #111d1f 18%);
+    --blue-5: color-mix(in srgb, #2b8ae6, #111d1f 34%);
     --yellow-1: #f5c25f;
     --yellow-2: #daa843;
     --yellow-3: #daa843;
     --yellow-4: color-mix(in srgb, #daa843, #111d1f 18%);
     --yellow-5: color-mix(in srgb, #daa843, #111d1f 34%);
-    --purple-1: #ea9bc7;
-    --purple-2: #c274a9;
-    --purple-3: #c274a9;
-    --purple-4: color-mix(in srgb, #c274a9, #111d1f 18%);
-    --purple-5: color-mix(in srgb, #c274a9, #111d1f 34%);
+    --purple-1: #d4b8f6;
+    --purple-2: #b28fea;
+    --purple-3: #b28fea;
+    --purple-4: color-mix(in srgb, #b28fea, #111d1f 18%);
+    --purple-5: color-mix(in srgb, #b28fea, #111d1f 34%);
 }
 
 /* Compartmentalized spacecraft surfaces with a quiet telemetry grid in chat. */
@@ -169,21 +179,21 @@ body {
     background-color: #1a292c !important;
 }
 
-/* Channel telemetry: amber means unread, cyan marks the live channel. */
+/* Channel telemetry: violet means unread, cyan marks the live channel. */
 #channels [class*="modeUnread"] [class*="link__"] {
-    background: color-mix(in srgb, #daa843 8%, transparent) !important;
-    box-shadow: inset 2px 0 #daa843;
+    background: color-mix(in srgb, #b28fea 10%, transparent) !important;
+    box-shadow: inset 2px 0 #b28fea;
 }
 
 #channels [class*="modeUnread"] :is([class*="name__"], [class*="icon__"]),
 #channels a[data-list-item-id^="channels___"][class*="modeUnread"] :is([class*="name"], svg) {
-    color: #daa843 !important;
-    fill: #daa843 !important;
+    color: #b28fea !important;
+    fill: #b28fea !important;
     font-weight: 600 !important;
 }
 
 #channels [class*="modeUnread"] [class*="unread_"] {
-    background: #daa843 !important;
+    background: #b28fea !important;
 }
 
 #channels [class*="modeConnected"] [class*="link__"] {
@@ -211,9 +221,9 @@ body {
     opacity: 0;
 }
 
-/* Server telemetry: unread amber, active cyan, direct mentions red. */
+/* Server telemetry: unread violet, active cyan, direct mentions red. */
 [class*="guilds_"] [class*="pill_"] > span[class*="item_"] {
-    background: #daa843 !important;
+    background: #b28fea !important;
 }
 
 [class*="guilds_"] [class*="listItem_"]:has([aria-selected="true"]) [class*="pill_"] > span[class*="item_"] {
@@ -244,14 +254,14 @@ li[class*="mentioned"] {
 :is(div, li)[class*="replying"],
 [id^="chat-messages-"]:has([class*="repliedMessage_"]) {
     background: linear-gradient(90deg, color-mix(in srgb, #39abab 9%, #111d1f), #111d1f 72%) !important;
-    border-left: 2px solid #2d7db9 !important;
+    border-left: 2px solid #2b8ae6 !important;
 }
 
 /* Code reads as a separate instrument display, not another chat bubble. */
 [class*="markup_"] pre {
     background: #051214 !important;
     border: 1px solid color-mix(in srgb, #39abab 28%, transparent) !important;
-    border-left: 3px solid #2d7db9 !important;
+    border-left: 3px solid #2b8ae6 !important;
 }
 
 [class*="markup_"] pre code {

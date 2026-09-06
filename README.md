@@ -55,7 +55,11 @@ theme.
 - `colors.toml` — Omarchy colour definitions and ANSI terminal palette
 - `unlock.png` and `preview-unlock.png` — Plymouth drive-unlock artwork and
   Omarchy switcher preview
+- `gtk.css` — GTK3/GTK4 spacecraft-instrument styling
 - `vencord.theme.css` — compact System24 spacecraft-instrument styling for Vencord/Vesktop
+- `zed.json` — THPM Zed editor theme
+- `cava_theme` — THPM Cava gradient
+- `zen.css` — THPM Zen Browser styling
 - `icons.theme` — Yaru icon theme
 - `backgrounds/` — 24 curated 3840×1760 *2001* spacecraft, station, and
   computer-interface frames
@@ -66,9 +70,9 @@ Discovery One is intentionally quiet: the display blue carries focus and active
 state, red is reserved for warnings alone, and the wallpapers and window layout
 provide most of the depth.
 
-The Discord stylesheet is applied automatically when the THPM Discord
-integration is enabled. Otherwise, copy `vencord.theme.css` into your Vencord or
-Vesktop themes directory and enable it in Discord's **Settings → Themes**.
+The GTK, Discord, Zed, Cava, and Zen styles are applied by THPM when their
+integrations are enabled. Otherwise, copy `vencord.theme.css` into your Vencord
+or Vesktop themes directory and enable it in Discord's **Settings → Themes**.
 
 ## CLIAMP visualizer
 

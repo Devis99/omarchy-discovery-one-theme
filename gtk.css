@@ -38,7 +38,7 @@
 @define-color theme_fg_color #d6d1bf;
 @define-color theme_base_color #051214;
 @define-color theme_text_color #d6d1bf;
-@define-color theme_selected_bg_color #143f3d;
+@define-color theme_selected_bg_color #173a63;
 @define-color theme_selected_fg_color #f5f2e7;
 @define-color insensitive_bg_color #111d1f;
 @define-color insensitive_fg_color #6b7c7d;
@@ -54,9 +54,29 @@ button:hover,
   background-color: #173a63;
 }
 
+row:hover,
+.view:hover {
+  background-color: alpha(@accent_color, 0.08);
+}
+
+/* Keyboard focus reads like a thin instrument readout, not a glow. */
+entry:focus,
+spinbutton:focus,
+button:focus,
+checkbutton:focus,
+radiobutton:focus,
+combobox:focus,
+switch:focus,
+scale:focus {
+  outline-color: alpha(@accent_color, 0.72);
+  outline-style: solid;
+  outline-width: 2px;
+  outline-offset: 1px;
+}
+
 button:checked,
 row:selected,
 .view:selected {
-  background-color: #143f3d;
+  background-color: #173a63;
   color: #f5f2e7;
 }

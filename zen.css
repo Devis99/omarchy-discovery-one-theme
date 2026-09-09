@@ -45,6 +45,17 @@
     color: var(--thpm-fg) !important;
 }
 
+/* The focused input is the active instrument channel. */
+#urlbar[focused="true"] > #urlbar-background,
+#searchbar:focus-within {
+    border: 1px solid var(--thpm-accent) !important;
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--thpm-accent) 16%, transparent) !important;
+}
+
+/* One calm underline makes the current tab obvious without adding chrome. */
+#TabsToolbar .tabbrowser-tab[selected="true"] .tab-background {
+    box-shadow: inset 0 -2px var(--thpm-accent) !important;
+}
 #zen-sidebar-top-buttons toolbarbutton,
 #zen-sidebar-foot-buttons toolbarbutton,
 #nav-bar toolbarbutton,

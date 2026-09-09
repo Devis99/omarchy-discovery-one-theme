@@ -150,35 +150,36 @@ border-alpha     = 1.0
 countdown        = "#2b8ae6"
 
 [launcher]
+# Match the menu: a balanced display frame with a quiet LCD cursor state.
 background                = "#051214"
 background-alpha          = 1.0
 text                      = "#d6d1bf"
-border                    = "hyprland.active-border"
+border                    = "rgba(2b8ae6cc) rgba(39ababaa) rgba(39ababaa) rgba(2b8ae6cc) 0deg"
 border-alpha              = 1.0
 border-width              = 2
 scrim                     = "#010709"
 scrim-alpha               = 0.68
-selected-background       = "#143f3d"
-selected-background-alpha = 1.0
+selected-background       = "#173a63"
+selected-background-alpha = 0.48
 selected-text             = "#f5f2e7"
-selected-border           = "#39abab"
+selected-border           = "#5ddae0"
 selected-border-alpha     = 1.0
 selected-border-width     = "0 0 0 3"
 
 [menu]
-# A dark console card with cyan cursor telemetry. Clipboard and emojis inherit it.
+# A balanced display frame with a quiet LCD cursor state.
 background                = "#051214"
 background-alpha          = 1.0
 text                      = "#d6d1bf"
-border                    = "hyprland.active-border"
+border                    = "rgba(2b8ae6cc) rgba(39ababaa) rgba(39ababaa) rgba(2b8ae6cc) 0deg"
 border-alpha              = 1.0
 border-width              = 2
 scrim                     = "#010709"
 scrim-alpha               = 0.68
-selected-background       = "#143f3d"
-selected-background-alpha = 1.0
+selected-background       = "#173a63"
+selected-background-alpha = 0.48
 selected-text             = "#f5f2e7"
-selected-border           = "#39abab"
+selected-border           = "#5ddae0"
 selected-border-alpha     = 1.0
 selected-border-width     = "0 0 0 3"
 

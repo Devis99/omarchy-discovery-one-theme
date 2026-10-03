@@ -43,10 +43,10 @@ theme.
 | Foreground | `#d6d1bf` | Warm ivory |
 | Alert | `#e85854` | Reserved warning red |
 | Telemetry | `#daa843` | Instrument amber |
-| Phosphor | `#2d9570` | Phosphor green |
+| Phosphor | `#32be98` | Phosphor green |
 | Instrument | `#39abab` | Cool instrument teal |
 | Display | `#2b8ae6` | CRT display blue — lead accent |
-| Diagram | `#b28fea` | Screen diagram violet |
+| Diagram | `#fa8ecd` | Graph-screen magenta |
 
 ## Included
 

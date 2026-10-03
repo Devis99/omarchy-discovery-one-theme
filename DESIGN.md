@@ -15,8 +15,9 @@ or like a generic black-and-red hacker theme.
 
 The desktop is a spacecraft at the edge of the void: graphite panels, cool
 blue-green instrument shadows, warm ivory text, and the saturated blue of the
-ship's own display screens. The film's consoles read blue first, violet and
-cyan second; the theme follows them. Red is held back for alerts and errors
+ship's own display screens. The film's consoles read blue first, with the
+cyan-green AE-35 wireframe and the magenta graph screens second; the theme
+follows them. Red is held back for alerts and errors
 alone. The sparse palette leaves room for windows and wallpapers to provide
 depth.
 
@@ -27,11 +28,14 @@ depth.
 | Background | Near-black graphite / deep space |
 | Surfaces | Slightly lighter molded-panel grey |
 | Text | Warm spacecraft ivory |
-| Muted text | Cool instrument-panel blue-grey |
+| Muted text | Cool instrument-panel blue-grey, kept above 4.5:1 so comments stay readable |
 | Lead accent | CRT display blue for focus and active state |
 | Support | Muted amber for secondary information |
 | ANSI blue/cyan | Phosphor display colours, kept inside the screen language |
 | Terminal surfaces | Screen-black teal, with mint/green information text |
+| ANSI green | Cyan-green phosphor of the AE-35 wireframe display, not forest green |
+| ANSI magenta | Pink-magenta of the HAL bank graph screens; light enough to separate from cyan for colour-blind viewers |
+| Orange / brown | Warm console-lamp brass, kept clear of the alarm red so red stays unambiguous |
 | Warning/error | Red, and nothing else; reserve it so it keeps its authority |
 
 ## Terminal direction
@@ -39,7 +43,7 @@ depth.
 Terminals should feel like the ship's instrument displays rather than a generic
 retro computer theme. Use the near-black teal background, mint/green for normal
 screen data, amber for secondary telemetry, red for warnings, and occasional
-pink/violet for diagram-like output. Keep ivory for the prompt and primary text;
+magenta for diagram-like output. Keep ivory for the prompt and primary text;
 do not turn every terminal line green.
 
 ## Wallpapers

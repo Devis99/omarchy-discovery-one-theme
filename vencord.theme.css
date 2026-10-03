@@ -37,7 +37,7 @@ body {
         #8f3432 37% 53%,
         #551f1d 54% 70%,
         #233538 71% 85%,
-        #6b7c7d 86% 94%,
+        #758789 86% 94%,
         #051214 95% 100%);
     --background-image: off;
     --transparency-tweaks: off;
@@ -62,7 +62,7 @@ body {
     --text-2: #e5e1d3;
     --text-3: #d6d1bf;
     --text-4: #7e9495;
-    --text-5: #6b7c7d;
+    --text-5: #758789;
 
     --bg-1: #233538;
     --bg-2: #1a292c;
@@ -82,11 +82,11 @@ body {
     --mention: linear-gradient(to right, color-mix(in srgb, #daa843 16%, transparent) 40%, transparent);
     --mention-hover: linear-gradient(to right, color-mix(in srgb, #daa843 22%, transparent) 40%, transparent);
 
-    --online: #2d9570;
+    --online: #32be98;
     --dnd: #e85854;
     --idle: #daa843;
-    --streaming: #b28fea;
-    --offline: #6b7c7d;
+    --streaming: #fa8ecd;
+    --offline: #758789;
 
     --text-normal: var(--text-3);
     --text-muted: var(--text-5);
@@ -107,12 +107,12 @@ body {
     --background-base-lower: var(--bg-4);
     --background-base-lowest: #051214;
 
-    --status-positive: #2d9570;
-    --status-speaking: #65cead;
+    --status-positive: #32be98;
+    --status-speaking: #7de5c3;
     --button-danger-background: #e85854;
     --button-danger-background-hover: #ff847d;
     --button-danger-text: #051214;
-    --button-positive-background: #2d9570;
+    --button-positive-background: #32be98;
 
     --border-light: var(--hover);
     --border: color-mix(in srgb, #7e9495 24%, transparent);
@@ -124,11 +124,11 @@ body {
     --red-3: #e85854;
     --red-4: color-mix(in srgb, #e85854, #111d1f 18%);
     --red-5: color-mix(in srgb, #e85854, #111d1f 34%);
-    --green-1: #65cead;
-    --green-2: #2d9570;
-    --green-3: #2d9570;
-    --green-4: color-mix(in srgb, #2d9570, #111d1f 18%);
-    --green-5: color-mix(in srgb, #2d9570, #111d1f 34%);
+    --green-1: #7de5c3;
+    --green-2: #32be98;
+    --green-3: #32be98;
+    --green-4: color-mix(in srgb, #32be98, #111d1f 18%);
+    --green-5: color-mix(in srgb, #32be98, #111d1f 34%);
     --blue-1: #5ddae0;
     --blue-2: #39abab;
     --blue-3: #2b8ae6;
@@ -139,11 +139,11 @@ body {
     --yellow-3: #daa843;
     --yellow-4: color-mix(in srgb, #daa843, #111d1f 18%);
     --yellow-5: color-mix(in srgb, #daa843, #111d1f 34%);
-    --purple-1: #d4b8f6;
-    --purple-2: #b28fea;
-    --purple-3: #b28fea;
-    --purple-4: color-mix(in srgb, #b28fea, #111d1f 18%);
-    --purple-5: color-mix(in srgb, #b28fea, #111d1f 34%);
+    --purple-1: #ffb8df;
+    --purple-2: #fa8ecd;
+    --purple-3: #fa8ecd;
+    --purple-4: color-mix(in srgb, #fa8ecd, #111d1f 18%);
+    --purple-5: color-mix(in srgb, #fa8ecd, #111d1f 34%);
 }
 
 /* Compartmentalized spacecraft surfaces with a quiet telemetry grid in chat. */
@@ -181,27 +181,27 @@ body {
 
 /* Channel telemetry: violet means unread, cyan marks the live channel. */
 #channels [class*="modeUnread"] [class*="link__"] {
-    background: color-mix(in srgb, #b28fea 10%, transparent) !important;
-    box-shadow: inset 2px 0 #b28fea;
+    background: color-mix(in srgb, #fa8ecd 10%, transparent) !important;
+    box-shadow: inset 2px 0 #fa8ecd;
 }
 
 #channels [class*="modeUnread"] :is([class*="name__"], [class*="icon__"]),
 #channels a[data-list-item-id^="channels___"][class*="modeUnread"] :is([class*="name"], svg) {
-    color: #b28fea !important;
-    fill: #b28fea !important;
+    color: #fa8ecd !important;
+    fill: #fa8ecd !important;
     font-weight: 600 !important;
 }
 
 #channels [class*="modeUnread"] [class*="unread_"] {
-    background: #b28fea !important;
+    background: #fa8ecd !important;
 }
 
 #channels [class*="modeConnected"] [class*="link__"] {
-    box-shadow: inset 2px 0 #65cead;
+    box-shadow: inset 2px 0 #7de5c3;
 }
 
 #channels [class*="modeConnected"] :is([class*="name__"], [class*="icon__"]) {
-    color: #65cead !important;
+    color: #7de5c3 !important;
 }
 
 #channels [class*="modeSelected"] [class*="link__"],
@@ -223,7 +223,7 @@ body {
 
 /* Server telemetry: unread violet, active cyan, direct mentions red. */
 [class*="guilds_"] [class*="pill_"] > span[class*="item_"] {
-    background: #b28fea !important;
+    background: #fa8ecd !important;
 }
 
 [class*="guilds_"] [class*="listItem_"]:has([aria-selected="true"]) [class*="pill_"] > span[class*="item_"] {

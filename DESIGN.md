@@ -17,8 +17,9 @@ The desktop is a spacecraft at the edge of the void: graphite panels, cool
 blue-green instrument shadows, warm ivory text, and the saturated blue of the
 ship's own display screens. The film's consoles read blue first, with the
 cyan-green AE-35 wireframe and the magenta graph screens second; the theme
-follows them. Red is held back for alerts and errors
-alone. The sparse palette leaves room for windows and wallpapers to provide
+follows them. Every accent is measured from the wallpapers and set to the
+peak saturation its family reaches in the film, never past it. Red is held back
+for alerts and errors alone. The sparse palette leaves room for windows and wallpapers to provide
 depth.
 
 ## Roles
@@ -30,13 +31,15 @@ depth.
 | Text | Warm spacecraft ivory |
 | Muted text | Cool instrument-panel blue-grey, kept above 4.5:1 so comments stay readable |
 | Lead accent | CRT display blue for focus and active state |
+| Window border | A display screen: dark, display blue, AE-35 cyan, dark (135°), so it reads as light on a screen edge |
+| Menu / launcher row | The same screen: blue at low opacity, a blue-cyan-blue frame, bright cyan text |
 | Support | Muted amber for secondary information |
-| ANSI blue/cyan | Phosphor display colours, kept inside the screen language |
+| ANSI blue/cyan | Display blue and the AE-35 wireframe cyan |
 | Terminal surfaces | Screen-black teal, with mint/green information text |
-| ANSI green | Cyan-green phosphor of the AE-35 wireframe display, not forest green |
+| ANSI green | Phosphor green of the pod's console readouts, not forest green |
 | ANSI magenta | Pink-magenta of the HAL bank graph screens; light enough to separate from cyan for colour-blind viewers |
-| Orange / brown | Warm console-lamp brass, kept clear of the alarm red so red stays unambiguous |
-| Warning/error | Red, and nothing else; reserve it so it keeps its authority |
+| Orange / brown | The pod's warm console lamps, kept clear of the alarm red so red stays unambiguous |
+| Warning/error | HAL's iris red, and nothing else; reserve it so it keeps its authority |
 
 ## Terminal direction
 
@@ -51,8 +54,9 @@ do not turn every terminal line green.
 The installed wallpaper set lives alongside the theme in `backgrounds/`. It is
 narrowly curated to spacecraft, orbital stations, and the film's instrument
 screens. The generated vector studies and weaker interior/lifestyle frames were
-removed. These copyrighted stills are for local personal use and must not be
-redistributed.
+removed. One frame per scene, no faces in close-up, in film order after the ship
+itself. The stills belong to Turner Entertainment Co. and Warner Bros.; sources are in
+`backgrounds/SOURCES.md`.
 
 ## What to avoid
 

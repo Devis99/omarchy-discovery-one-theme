@@ -8,7 +8,7 @@ background       = "#111d1f"
 background-alpha = 1.0
 text             = "#d6d1bf"
 # Modules calling attention to themselves (recording, voxtype, alerts, updates)
-active           = "#2b8ae6"
+active           = "#3d77f3"
 # Cross-axis size at font base-size 12. size-horizontal is the height of
 # top/bottom bars; size-vertical is the width of left/right bars. With
 # scale-with-font enabled, these grow/shrink with [font] base-size.
@@ -17,9 +17,9 @@ size-horizontal  = 26
 size-vertical    = 28
 
 [hyprland]
-# A display sweep frames focused windows and shell instrument panels.
-active-border            = "rgba(39ababee) rgba(2b8ae6ee) 45deg"
-active-border-foreground = "rgba(5ddae0ee) rgba(87bbfdee) 45deg"
+# A display screen frames focused windows.
+active-border            = "rgb(111d1f) rgb(3d77f3) rgb(20d4b9) rgb(111d1f) 135deg"
+active-border-foreground = "rgb(111d1f) rgb(83adfe) rgb(89edd9) rgb(111d1f) 135deg"
 
 [controls]
 # Shared state tokens for interactive control chrome (buttons, dropdowns,
@@ -147,41 +147,41 @@ text             = "#d6d1bf"
 border           = "hyprland.active-border"
 border-alpha     = 1.0
 # border-width     = 2
-countdown        = "#2b8ae6"
+countdown        = "#3d77f3"
 
 [launcher]
 # Match the menu: a balanced display frame with a quiet LCD cursor state.
 background                = "#051214"
 background-alpha          = 1.0
 text                      = "#d6d1bf"
-border                    = "rgba(2b8ae6cc) rgba(39ababaa) rgba(39ababaa) rgba(2b8ae6cc) 0deg"
+border                    = "rgb(111d1f) rgb(3d77f3) rgb(20d4b9) rgb(111d1f) 0deg"
 border-alpha              = 1.0
 border-width              = 2
 scrim                     = "#010709"
 scrim-alpha               = 0.68
-selected-background       = "#173a63"
-selected-background-alpha = 0.48
-selected-text             = "#f5f2e7"
-selected-border           = "#5ddae0"
+selected-background       = "#3d77f3"
+selected-background-alpha = 0.16
+selected-text             = "#89edd9"
+selected-border           = "rgb(3d77f3) rgb(20d4b9) rgb(3d77f3) 90deg"
 selected-border-alpha     = 1.0
-selected-border-width     = "0 0 0 3"
+selected-border-width     = 2
 
 [menu]
 # A balanced display frame with a quiet LCD cursor state.
 background                = "#051214"
 background-alpha          = 1.0
 text                      = "#d6d1bf"
-border                    = "rgba(2b8ae6cc) rgba(39ababaa) rgba(39ababaa) rgba(2b8ae6cc) 0deg"
+border                    = "rgb(111d1f) rgb(3d77f3) rgb(20d4b9) rgb(111d1f) 0deg"
 border-alpha              = 1.0
 border-width              = 2
 scrim                     = "#010709"
 scrim-alpha               = 0.68
-selected-background       = "#173a63"
-selected-background-alpha = 0.48
-selected-text             = "#f5f2e7"
-selected-border           = "#5ddae0"
+selected-background       = "#3d77f3"
+selected-background-alpha = 0.16
+selected-text             = "#89edd9"
+selected-border           = "rgb(3d77f3) rgb(20d4b9) rgb(3d77f3) 90deg"
 selected-border-alpha     = 1.0
-selected-border-width     = "0 0 0 3"
+selected-border-width     = 2
 
 [polkit]
 # Polkit authentication prompt (sudo/password dialogs). scrim is the
@@ -192,14 +192,14 @@ selected-border-width     = "0 0 0 3"
 background       = "#111d1f"
 background-alpha = 1.0
 text             = "#d6d1bf"
-text-error       = "#e85854"
+text-error       = "#fe1c40"
 border           = "hyprland.active-border"
-border-error     = "#e85854"
+border-error     = "#fe1c40"
 border-alpha     = 1.0
 scrim            = "#111d1f"
 scrim-alpha      = 0.5
 # accent is the lock-icon glyph color + text-selection tint.
-accent           = "#2b8ae6"
+accent           = "#3d77f3"
 
 [lock]
 # Lock screen password input. background/background-alpha control the
@@ -211,13 +211,13 @@ background       = "#111d1f"
 background-alpha = 0.8
 text             = "#d6d1bf"
 placeholder      = "#939489"
-text-error       = "#e85854"
+text-error       = "#fe1c40"
 border           = "hyprland.active-border"
 border-active    = "hyprland.active-border"
-border-error     = "#e85854"
+border-error     = "#fe1c40"
 border-alpha     = 1.0
 # selection is the text-selection tint inside the input field.
-selection        = "#2b8ae6"
+selection        = "#3d77f3"
 selection-alpha  = 0.45
 
 [image-picker]
@@ -228,7 +228,7 @@ selection-alpha  = 0.45
 scrim                   = "#111d1f"
 scrim-alpha             = 0.5
 text                    = "#d6d1bf"
-selected-border         = "#2b8ae6"
+selected-border         = "#3d77f3"
 selected-border-alpha   = 1.0
 unselected-border       = "#d6d1bf"
 unselected-border-alpha = 0.28

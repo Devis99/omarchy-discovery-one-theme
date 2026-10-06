@@ -1,14 +1,14 @@
 /* Discovery One GTK3/GTK4 palette for THPM. */
-@define-color accent_color #2b8ae6;
-@define-color accent_bg_color #2b8ae6;
+@define-color accent_color #3d77f3;
+@define-color accent_bg_color #3d77f3;
 @define-color accent_fg_color #f5f2e7;
-@define-color destructive_color #e85854;
-@define-color destructive_bg_color #e85854;
+@define-color destructive_color #fe1c40;
+@define-color destructive_bg_color #fe1c40;
 @define-color destructive_fg_color #f5f2e7;
-@define-color success_color #32be98;
-@define-color success_bg_color #32be98;
-@define-color warning_color #daa843;
-@define-color error_color #e85854;
+@define-color success_color #3acf89;
+@define-color success_bg_color #3acf89;
+@define-color warning_color #e9c85e;
+@define-color error_color #fe1c40;
 
 @define-color window_bg_color #111d1f;
 @define-color window_fg_color #d6d1bf;

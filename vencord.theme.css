@@ -32,8 +32,8 @@ body {
     --custom-dms-background: color;
     --dms-background-color: radial-gradient(circle closest-side,
         #f5f2e7 0 10%,
-        #ff847d 11% 21%,
-        #e85854 22% 36%,
+        #ff7576 11% 21%,
+        #fe1c40 22% 36%,
         #8f3432 37% 53%,
         #551f1d 54% 70%,
         #233538 71% 85%,
@@ -50,7 +50,7 @@ body {
     --ascii-titles: on;
     --ascii-loader: system24;
     --panel-labels: on;
-    --label-color: #daa843;
+    --label-color: #e9c85e;
     --label-font-weight: 600;
 }
 
@@ -70,22 +70,22 @@ body {
     --bg-4: #111d1f;
     --hover: color-mix(in srgb, #7e9495 13%, transparent);
     --active: #143f3d;
-    --active-2: color-mix(in srgb, #39abab 24%, transparent);
+    --active-2: color-mix(in srgb, #20d4b9 24%, transparent);
     --message-hover: color-mix(in srgb, #010709 48%, transparent);
 
-    --accent-1: #5ddae0;
-    --accent-2: #39abab;
-    --accent-3: #39abab;
-    --accent-4: #5ddae0;
-    --accent-5: #2b8ae6;
-    --accent-new: #e85854;
-    --mention: linear-gradient(to right, color-mix(in srgb, #daa843 16%, transparent) 40%, transparent);
-    --mention-hover: linear-gradient(to right, color-mix(in srgb, #daa843 22%, transparent) 40%, transparent);
+    --accent-1: #89edd9;
+    --accent-2: #20d4b9;
+    --accent-3: #20d4b9;
+    --accent-4: #89edd9;
+    --accent-5: #3d77f3;
+    --accent-new: #fe1c40;
+    --mention: linear-gradient(to right, color-mix(in srgb, #e9c85e 16%, transparent) 40%, transparent);
+    --mention-hover: linear-gradient(to right, color-mix(in srgb, #e9c85e 22%, transparent) 40%, transparent);
 
-    --online: #32be98;
-    --dnd: #e85854;
-    --idle: #daa843;
-    --streaming: #fa8ecd;
+    --online: #3acf89;
+    --dnd: #fe1c40;
+    --idle: #e9c85e;
+    --streaming: #f867bf;
     --offline: #758789;
 
     --text-normal: var(--text-3);
@@ -97,7 +97,7 @@ body {
     --interactive-active: var(--text-1);
     --interactive-muted: var(--text-5);
     --channels-default: var(--text-5);
-    --channels-default-unread: #daa843;
+    --channels-default-unread: #e9c85e;
     --channel-icon: var(--text-5);
     --background-primary: var(--bg-4);
     --background-secondary: var(--bg-3);
@@ -107,43 +107,43 @@ body {
     --background-base-lower: var(--bg-4);
     --background-base-lowest: #051214;
 
-    --status-positive: #32be98;
-    --status-speaking: #7de5c3;
-    --button-danger-background: #e85854;
-    --button-danger-background-hover: #ff847d;
+    --status-positive: #3acf89;
+    --status-speaking: #88e9b3;
+    --button-danger-background: #fe1c40;
+    --button-danger-background-hover: #ff7576;
     --button-danger-text: #051214;
-    --button-positive-background: #32be98;
+    --button-positive-background: #3acf89;
 
     --border-light: var(--hover);
     --border: color-mix(in srgb, #7e9495 24%, transparent);
-    --border-hover: #39abab;
+    --border-hover: #20d4b9;
     --button-border: color-mix(in srgb, #d6d1bf 12%, transparent);
 
-    --red-1: #ff847d;
-    --red-2: #e85854;
-    --red-3: #e85854;
-    --red-4: color-mix(in srgb, #e85854, #111d1f 18%);
-    --red-5: color-mix(in srgb, #e85854, #111d1f 34%);
-    --green-1: #7de5c3;
-    --green-2: #32be98;
-    --green-3: #32be98;
-    --green-4: color-mix(in srgb, #32be98, #111d1f 18%);
-    --green-5: color-mix(in srgb, #32be98, #111d1f 34%);
-    --blue-1: #5ddae0;
-    --blue-2: #39abab;
-    --blue-3: #2b8ae6;
-    --blue-4: color-mix(in srgb, #2b8ae6, #111d1f 18%);
-    --blue-5: color-mix(in srgb, #2b8ae6, #111d1f 34%);
-    --yellow-1: #f5c25f;
-    --yellow-2: #daa843;
-    --yellow-3: #daa843;
-    --yellow-4: color-mix(in srgb, #daa843, #111d1f 18%);
-    --yellow-5: color-mix(in srgb, #daa843, #111d1f 34%);
-    --purple-1: #ffb8df;
-    --purple-2: #fa8ecd;
-    --purple-3: #fa8ecd;
-    --purple-4: color-mix(in srgb, #fa8ecd, #111d1f 18%);
-    --purple-5: color-mix(in srgb, #fa8ecd, #111d1f 34%);
+    --red-1: #ff7576;
+    --red-2: #fe1c40;
+    --red-3: #fe1c40;
+    --red-4: color-mix(in srgb, #fe1c40, #111d1f 18%);
+    --red-5: color-mix(in srgb, #fe1c40, #111d1f 34%);
+    --green-1: #88e9b3;
+    --green-2: #3acf89;
+    --green-3: #3acf89;
+    --green-4: color-mix(in srgb, #3acf89, #111d1f 18%);
+    --green-5: color-mix(in srgb, #3acf89, #111d1f 34%);
+    --blue-1: #89edd9;
+    --blue-2: #20d4b9;
+    --blue-3: #3d77f3;
+    --blue-4: color-mix(in srgb, #3d77f3, #111d1f 18%);
+    --blue-5: color-mix(in srgb, #3d77f3, #111d1f 34%);
+    --yellow-1: #fce396;
+    --yellow-2: #e9c85e;
+    --yellow-3: #e9c85e;
+    --yellow-4: color-mix(in srgb, #e9c85e, #111d1f 18%);
+    --yellow-5: color-mix(in srgb, #e9c85e, #111d1f 34%);
+    --purple-1: #fea8d7;
+    --purple-2: #f867bf;
+    --purple-3: #f867bf;
+    --purple-4: color-mix(in srgb, #f867bf, #111d1f 18%);
+    --purple-5: color-mix(in srgb, #f867bf, #111d1f 34%);
 }
 
 /* Compartmentalized spacecraft surfaces with a quiet telemetry grid in chat. */
@@ -181,39 +181,39 @@ body {
 
 /* Channel telemetry: violet means unread, cyan marks the live channel. */
 #channels [class*="modeUnread"] [class*="link__"] {
-    background: color-mix(in srgb, #fa8ecd 10%, transparent) !important;
-    box-shadow: inset 2px 0 #fa8ecd;
+    background: color-mix(in srgb, #f867bf 10%, transparent) !important;
+    box-shadow: inset 2px 0 #f867bf;
 }
 
 #channels [class*="modeUnread"] :is([class*="name__"], [class*="icon__"]),
 #channels a[data-list-item-id^="channels___"][class*="modeUnread"] :is([class*="name"], svg) {
-    color: #fa8ecd !important;
-    fill: #fa8ecd !important;
+    color: #f867bf !important;
+    fill: #f867bf !important;
     font-weight: 600 !important;
 }
 
 #channels [class*="modeUnread"] [class*="unread_"] {
-    background: #fa8ecd !important;
+    background: #f867bf !important;
 }
 
 #channels [class*="modeConnected"] [class*="link__"] {
-    box-shadow: inset 2px 0 #7de5c3;
+    box-shadow: inset 2px 0 #88e9b3;
 }
 
 #channels [class*="modeConnected"] :is([class*="name__"], [class*="icon__"]) {
-    color: #7de5c3 !important;
+    color: #88e9b3 !important;
 }
 
 #channels [class*="modeSelected"] [class*="link__"],
 #channels a[data-list-item-id^="channels___"][aria-selected="true"] {
-    background: linear-gradient(90deg, #143f3d, color-mix(in srgb, #39abab 12%, #0b1719)) !important;
-    box-shadow: inset 3px 0 #39abab, inset 0 0 0 1px color-mix(in srgb, #39abab 28%, transparent) !important;
+    background: linear-gradient(90deg, #143f3d, color-mix(in srgb, #20d4b9 12%, #0b1719)) !important;
+    box-shadow: inset 3px 0 #20d4b9, inset 0 0 0 1px color-mix(in srgb, #20d4b9 28%, transparent) !important;
 }
 
 #channels [class*="modeSelected"] :is([class*="name__"], [class*="icon__"]),
 #channels a[data-list-item-id^="channels___"][aria-selected="true"] :is([class*="name"], svg) {
     color: #f5f2e7 !important;
-    fill: #39abab !important;
+    fill: #20d4b9 !important;
     font-weight: 700 !important;
 }
 
@@ -223,45 +223,45 @@ body {
 
 /* Server telemetry: unread violet, active cyan, direct mentions red. */
 [class*="guilds_"] [class*="pill_"] > span[class*="item_"] {
-    background: #fa8ecd !important;
+    background: #f867bf !important;
 }
 
 [class*="guilds_"] [class*="listItem_"]:has([aria-selected="true"]) [class*="pill_"] > span[class*="item_"] {
-    background: #39abab !important;
+    background: #20d4b9 !important;
 }
 
 [class*="guilds_"] [data-list-item-id^="guildsnav___"][aria-selected="true"] {
-    box-shadow: 0 0 0 2px #39abab !important;
+    box-shadow: 0 0 0 2px #20d4b9 !important;
 }
 
 [class*="guilds_"] :is([class*="numberBadge"], [class*="textBadge"]) {
     color: #051214 !important;
-    background: #e85854 !important;
+    background: #fe1c40 !important;
 }
 
 /* The composer becomes an illuminated input panel only while typing. */
 [class*="channelTextArea"]:focus-within [class*="scrollableContainer"] {
-    box-shadow: inset 0 -2px #39abab, inset 0 0 0 1px color-mix(in srgb, #39abab 30%, transparent) !important;
+    box-shadow: inset 0 -2px #20d4b9, inset 0 0 0 1px color-mix(in srgb, #20d4b9 30%, transparent) !important;
 }
 
 /* Amber calls for attention; teal keeps reply context visible but quieter. */
 div[class*="mentioned"],
 li[class*="mentioned"] {
-    background: linear-gradient(90deg, color-mix(in srgb, #daa843 16%, #111d1f), #111d1f 72%) !important;
-    border-left: 3px solid #daa843 !important;
+    background: linear-gradient(90deg, color-mix(in srgb, #e9c85e 16%, #111d1f), #111d1f 72%) !important;
+    border-left: 3px solid #e9c85e !important;
 }
 
 :is(div, li)[class*="replying"],
 [id^="chat-messages-"]:has([class*="repliedMessage_"]) {
-    background: linear-gradient(90deg, color-mix(in srgb, #39abab 9%, #111d1f), #111d1f 72%) !important;
-    border-left: 2px solid #2b8ae6 !important;
+    background: linear-gradient(90deg, color-mix(in srgb, #20d4b9 9%, #111d1f), #111d1f 72%) !important;
+    border-left: 2px solid #3d77f3 !important;
 }
 
 /* Code reads as a separate instrument display, not another chat bubble. */
 [class*="markup_"] pre {
     background: #051214 !important;
-    border: 1px solid color-mix(in srgb, #39abab 28%, transparent) !important;
-    border-left: 3px solid #2b8ae6 !important;
+    border: 1px solid color-mix(in srgb, #20d4b9 28%, transparent) !important;
+    border-left: 3px solid #3d77f3 !important;
 }
 
 [class*="markup_"] pre code {

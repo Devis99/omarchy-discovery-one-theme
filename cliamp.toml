@@ -1,0 +1,9 @@
+# cliamp theme - Discovery One
+# Installed by THPM to ~/.config/cliamp/themes/omarchy.toml
+# thpm:cliamp-use-native
+accent = "#3d77f3"     # display blue: primary interactive
+bright_fg = "#f5f2e7"  # hull ivory: primary text and time
+fg = "#758789"         # instrument grey: dim text and inactive elements
+green = "#3acf89"     # phosphor: playing indicator, spectrum lows
+yellow = "#e9c85e"    # readout amber: spectrum mids, warnings
+red = "#fe1c40"       # HAL red: spectrum highs, errors

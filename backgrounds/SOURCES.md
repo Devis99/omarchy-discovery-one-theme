@@ -12,8 +12,8 @@ Individual URLs follow the pattern
 `https://imgs.screencaps.us/196/4k-8-spaceodyssee/full/2001space4k-movie-screencaps.com-N.jpg`.
 
 The frames are 2.2:1. To fill a 16:9 screen without losing the subject, frames with a
-black edge (space, screens) are extended with matching black; the rest are scaled to
-fill and centre-cropped.
+black edge (screens) are extended with matching black, the ship's starfield is extended
+with stars from the same frame, and the rest are scaled to fill and centre-cropped.
 
 | File | Frame N |
 |---|---:|

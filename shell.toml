@@ -125,7 +125,7 @@ base-size = 12
 background       = "#111d1f"
 background-alpha = 1.0
 text             = "#d6d1bf"
-border           = "hyprland.active-border"
+border           = "rgb(465658) rgb(3d77f3) rgb(20d4b9) rgb(465658) 135deg"
 border-alpha     = 1.0
 # border-width     = 2
 

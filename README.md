@@ -6,11 +6,7 @@ An Omarchy theme based on *2001: A Space Odyssey*: graphite spacecraft panels, w
 
 ![Discovery One Omarchy theme preview](preview.png)
 
-<table>
-  <tr>
-    <td><img src="preview-unlock.png" alt="Discovery One unlock screen"></td>
-  </tr>
-</table>
+![Discovery One unlock screen](preview-unlock.png)
 
 ## Install
 
